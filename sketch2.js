@@ -47,8 +47,8 @@ urls = [
   
   full = true;
   
-  canvas_X = 700;
-  canvas_Y = 900;
+  canvas_X = 100;
+  canvas_Y = 100;
   
   padding = 1.6 * emote_size;
   offset = padding / 2;
@@ -79,6 +79,7 @@ urls = [
   }
   
   function setup() {
+    pixelDensity(1)
     if(full){
       canvas_X = windowWidth
       canvas_Y = windowHeight
